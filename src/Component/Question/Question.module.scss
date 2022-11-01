@@ -49,6 +49,9 @@
       align-items: center;
       gap: 20px 0px;
       .option {
+        @include breakpoint("mobile") {
+          margin-bottom: 8px;
+        }
         border: none;
         flex-basis: 40%;
         border: 1px solid rgba(192, 192, 192, 1);
@@ -90,7 +93,6 @@
   }
   @include breakpoint("mobile") {
     width: 300px;
-    
   }
 }
 @keyframes animate {

@@ -92,6 +92,12 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media (max-width: 767px) {
+  .question .main .options .option {
+    margin-bottom: 8px;
+  }
+}
+
 .question .main .options .option.active {
   background-color: #4a01da;
   border: none;
