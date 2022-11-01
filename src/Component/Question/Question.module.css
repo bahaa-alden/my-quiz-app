@@ -49,6 +49,12 @@
   margin-bottom: 35px;
 }
 
+@media (max-width: 767px) {
+  .question .main .title {
+    right: 22px;
+  }
+}
+
 .question .main .title span {
   padding: 10px;
   font-size: 20px;
