@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,OAAO,CAAC;EAON,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,GAAG;EACV,aAAa,EAAE,IAAI;EACnB,UAAU,EAAE,CAAC,CAAC,CAAC,CAAC,IAAI,CAAc,kBAAO;CAC1C;;ACkBG,MAAM,EAAE,SAAS,EAAE,KAAK;ED7B5B,AAAA,OAAO,CAAC;IAEJ,KAAK,EAAE,KAAK;GASf;;;AAXD,AAIE,OAJK,CAIL,EAAE,CAAC;EACD,SAAS,EAAE,IAAI;CAChB",
+    "sources": [
+        "QuizResult.module.scss",
+        "../../_helpers.scss"
+    ],
+    "names": [],
+    "file": "QuizResult.module.css"
+}

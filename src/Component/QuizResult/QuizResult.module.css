@@ -1,0 +1,18 @@
+.result {
+  background-color: white;
+  width: 50%;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+  .result {
+    width: 302px;
+  }
+}
+
+.result .p {
+  font-size: 22px;
+}
+/*# sourceMappingURL=QuizResult.module.css.map */

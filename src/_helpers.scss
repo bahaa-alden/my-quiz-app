@@ -1,0 +1,47 @@
+﻿@mixin list-style {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+@mixin Circle($dimensions) {
+  border-radius: 50%;
+  width: $dimensions;
+  height: $dimensions;
+}
+@mixin centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin overly($color, $opacity) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba($color: $color, $alpha: $opacity);
+}
+@mixin animate($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+}
+@mixin breakpoint($point) {
+  @if $point== "mobile" {
+    @media (max-width: 767px) {
+      @content;
+    }
+  } @else if $point== "small" {
+    @media (min-width: 768px) and (max-width: 991px) {
+      @content;
+    }
+  } @else if $point== "medium" {
+    @media (min-width: 992px) and (max-width: 1199px) {
+      @content;
+    }
+  } @else if $point== "large" {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+}

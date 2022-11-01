@@ -1,0 +1,125 @@
+﻿@import "../../_helpers";
+.question {
+  transition: all 0.4s linear;
+  padding: 0 20px 80px;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.5);
+  border-radius: 12px;
+  width: 55%;
+  overflow: hidden;
+  .progressBar {
+    position: absolute;
+    left: 0;
+    height: 10px;
+
+    &.active {
+      animation: animate 10s linear;
+    }
+  }
+  .count {
+    padding: 30px 0 10px;
+    font-size: 20px;
+  }
+  .main {
+    position: relative;
+    padding: 0px px;
+    .title {
+      position: relative;
+      right: 28px;
+      display: flex;
+      justify-content: flex-end;
+      text-align: end;
+      flex-direction: column;
+      span {
+        padding: 10px;
+        font-size: 20px;
+      }
+      .ques {
+        font-size: 18px;
+        color: gray;
+        font-weight: bold;
+      }
+      margin-bottom: 35px;
+    }
+    .options {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      gap: 20px 0px;
+      .option {
+        border: none;
+        flex-basis: 40%;
+        border: 1px solid rgba(192, 192, 192, 1);
+        border-radius: 12px;
+        padding: 10px 0;
+        line-height: 20px;
+        font-size: 20px;
+        &.active {
+          background-color: rgb(74, 1, 218);
+          border: none;
+          transition: all 0.3s;
+          color: white;
+        }
+        text-align: center;
+        cursor: pointer;
+        background-color: white;
+        box-shadow: 0 0 5px 0.5px;
+        color: black;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        &:hover {
+          background-color: black;
+          color: white;
+          transition: 0.5s;
+        }
+      }
+    }
+    .control {
+      position: absolute;
+      bottom: -80px;
+      right: 0px;
+      padding: 20px;
+    }
+  }
+  @include breakpoint("medium") {
+    width: 830px;
+  }
+  @include breakpoint("large") {
+    width: 830px;
+  }
+  @include breakpoint("mobile") {
+    width: 300px;
+  }
+}
+@keyframes animate {
+  0% {
+    width: 0;
+    background-color: #555;
+  }
+  59% {
+    width: 59%;
+    background-color: #555;
+  }
+  79% {
+    width: 79%;
+    background-color: orangered;
+  }
+  90% {
+    width: 90%;
+    border-top-right-radius: 0;
+  }
+  95% {
+    width: 95%;
+    border-top-right-radius: 0;
+  }
+  97% {
+    width: 97%;
+    border-top-right-radius: 0;
+  }
+  100% {
+    width: 102%;
+    background-color: red;
+    border-top-right-radius: 12px;
+  }
+}

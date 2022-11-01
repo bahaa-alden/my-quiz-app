@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,WAAW,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,GAAG;EACR,IAAI,EAAE,GAAG;EACT,SAAS,EAAE,qBAAqB;EAChC,UAAU,EAAE,eAAe;EAC3B,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CAOpB;;ACaG,MAAM,EAAE,SAAS,EAAE,KAAK;ED7B5B,AAAA,WAAW,CAAC;IAWR,QAAQ,EAAE,QAAQ;IACpB,GAAG,EAAE,GAAG;IACR,IAAI,EAAE,GAAG;IACT,SAAS,EAAE,qBAAqB;GAEjC",
+    "sources": [
+        "QuestionScreen.module.scss",
+        "../../_helpers.scss"
+    ],
+    "names": [],
+    "file": "QuestionScreen.module.css"
+}

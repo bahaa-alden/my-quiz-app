@@ -1,0 +1,7 @@
+.mainContainer {
+  width: 100%;
+  height: calc(100vh - 47px);
+  position: relative;
+  text-align: center;
+}
+/*# sourceMappingURL=App.module.css.map */

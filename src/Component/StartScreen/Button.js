@@ -1,0 +1,11 @@
+﻿import React, { Children } from "react";
+import styles from "./Button.module.css";
+function Button({ onClick, children }) {
+  return (
+    <button className={styles.Button} onClick={onClick}>
+      {children}
+    </button>
+  );
+}
+
+export default Button;
