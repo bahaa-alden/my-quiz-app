@@ -17,14 +17,4 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
-@media (max-width: 767px) {
-  .quizScreen {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
-}
 /*# sourceMappingURL=QuestionScreen.module.css.map */

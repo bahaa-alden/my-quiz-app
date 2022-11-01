@@ -16,11 +16,6 @@
 
 @media (max-width: 767px) {
   .joinscreen {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
     width: 306px;
   }
 }
